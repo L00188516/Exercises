@@ -11,7 +11,7 @@ title AddCommitPush
 git status
 
 echo **********************************
-echo "Performing an add for all files in this directory"echo This is for demonstration purposes only.
+echo "Performing an add for all files in this directory"
 git add .
 git status
  
