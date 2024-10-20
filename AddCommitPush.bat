@@ -16,9 +16,8 @@ git add .
 git status
  
 echo **********************************
-echo "Enter the commit message"
-set /P NAME=Enter the commit message?
-git commit -m "%NAME%"
+set /P MSG=Enter the commit message?:
+git commit -m "%MSG%"
 git status
 
 echo **********************************
