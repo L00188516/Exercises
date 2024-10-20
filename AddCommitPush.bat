@@ -22,7 +22,7 @@ git status
 
 echo **********************************
 echo "Pushing to GITHUB repository"
-git push -u origin master
+git push -u origin main
 echo **********************************
 
 echo "Done!"
